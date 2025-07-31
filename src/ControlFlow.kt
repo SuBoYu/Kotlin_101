@@ -30,4 +30,30 @@ fun main() {
     }
 
     println(result)
+
+
+    // for
+
+    for (num in 1..5) {
+        println(num)
+    }
+
+    val lans = listOf("Java", "Kotlin")
+    for (lan in lans) {
+        println(lan)
+    }
+
+    // while
+    var Eaten = 0
+    while (Eaten < 3) {
+        println(Eaten)
+        Eaten++
+    }
+
+    Eaten = 0
+    do {
+        println(Eaten)
+        Eaten++
+    } while (Eaten < 3)
+
 }
